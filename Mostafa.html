@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="my page talk about mostafa">
+        <title>My page </title>
+        <style>
+        body {background:#EFEFEF;font-family:Arial,Tahoma}
+        fieldset{
+            background:#FFF;
+            border:1px solid #CCC;
+            padding:10 px;
+            margin-bottom:20px;
+            width=500px
+            
+        }
+        legend{
+            background:#FFF;
+            border:1px solid #CCC;
+            padding:5px
+        }
+        label,input,select {}
+        label{margin-bottom:10px}
+        input{margin-bottom:10px}
+        input[type="text"],input[type="password"],textarea
+        {padding:8px;
+        width:200px;
+        display:block
+        }
+        hr{border 1px solid #EEE}
+        textarea{
+            padding:10px;
+            width:200px;
+            height:100px
+        }
+        iframe {
+           width:500px;
+           height:500px;
+           margin:8px;
+           border:8px solid #f00;
+            
+        }
+        </style>
+    </head>
+    <body>
+    <form name="register">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label>Username</label> 
+          <input type="text"name="username">
+          <br>
+          <label>Password </label> 
+          <input type="password" name="password">
+        <br>
+          <label>Email</label> 
+          <input type="text" name="Email">
+          <label>Gender</label>
+          <select name="gender">
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Engineer</option>
+            <option value="4">Hany</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Your Favourites</legend>
+          <label>Your Favourite Mobile</label> <br>
+          <input type="radio" name="mobile" value="1">Iphone <br>
+          <input type="radio" name="mobile"value="2">realme <br>
+          <input type="radio" name="mobile"value="3">glaxy<br>
+          <hr>
+        <label>Your Favourite Brower</label> <br>
+          <input type="checkbox" value="1">Ghrome <br>
+          <input type="checkbox" value="2">Firfox <br>
+          <input type="checkbox" value="3">Opera<br>
+          <hr>
+        <label>Your Favourite OS</label> <br>
+          <input type="radio" name="OS" value="1">MAC <br>
+          <input type="radio" name="OS"value="2">Lunix <br>
+          <input type="radio" name="OS"value="3">Windows<br>
+        </fieldset> 
+      <fieldset>
+        <label>Your Message</label>
+        <textarea></textarea>
+        <input type="submit" value="Send your Data">
+      </fieldset>
+    </form>   
+    </body>
+</html>
